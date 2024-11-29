@@ -1,0 +1,50 @@
+#sobre {
+    display: flex;
+    margin-top: 0;
+    position: relative;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dish_sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: solid;
+    border-radius: 20px;
+    gap: 18px;
+    width: 25%;
+    padding: 20px;
+    border-color: darkgray;
+    background-color: white;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.dish_sobre ul {
+    gap: 18px;
+    padding-left: 18px;
+}
+
+.content_sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    width: 35%;
+    margin-top: 5%;
+}
+
+.content_sobre h3{
+    font-size: 2.5rem;
+}
+
+.content_sobre p {
+    font-size: 1.2rem;
+}
+ 
+.title_pgt h3 {
+    font-size: 2rem;
+    color: #00420f;
+}

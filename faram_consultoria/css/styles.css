@@ -1,0 +1,138 @@
+@import url(header.css);
+@import url(home.css);
+@import url(servicos.css);
+@import url(sobre.css);
+@import url(questions.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 28px 8%;
+}
+
+.btn_default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00420f;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.btn_default_home {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.btn_default p{
+    color: white;
+}
+
+#img_logo {
+    display: flex;
+    gap: 18px;
+}
+
+#img_logo img {
+    height: 80px;
+    border-radius: 10px;
+}
+
+.social_media_button {
+    display: flex;
+    gap: 18px;
+}
+
+.social_media_button a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: antiquewhite;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section_title {
+    color: #00420f;
+    font-size: 50px;
+}
+
+.dishes_servicos, #dishes_sobre {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+
+.img_sobrenos {
+    display: flex;
+    gap: 18px;
+    width: 35%;
+    z-index: 2;
+    margin-top: 30px;
+}
+
+.img_sobrenos img {
+    border-radius: 30px;
+    height: 300px;
+    width: fit-content;
+} 
+
+.title_sobre{
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#info_footer {
+    display: flex;
+    width: 80%;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contato h2 {
+    color: #00420f;
+    font-style: 3rem;
+}
+
+.contato span {
+    font-size: 1.5rem;
+}
+
+.cta p {
+    font-size: 1.2rem;
+}
