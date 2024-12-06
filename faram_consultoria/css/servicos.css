@@ -26,3 +26,14 @@
     color: #434343;
     text-align: start;
 }
+
+.dish_title_fim {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 700px) {
+    #dish{
+        width: 70%;
+    }
+}

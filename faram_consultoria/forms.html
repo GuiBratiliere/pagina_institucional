@@ -1,13 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/forms/form.css">
 </head>
 <body>
-    <form action="">
-        
+    <div class="img_logo">
+        <img src="img/FARAM LOGO.jpg" alt="">
+    </div>
+    <form action="https://formsubmit.co/contato@faramconsultoria.com" method="POST" data-form>
+        <label for="nome">Nome</label>
+        <input type="text" name="name" id="name" required>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required>
+        <label for="cargo">Empresa</label>
+        <input type="text" name="empresa" id="cargo">
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" required></textarea>
+        <button type="submit" data-button>Enviar</button>
     </form>
+    <script href="js/form.js"></script>
 </body>
 </html>

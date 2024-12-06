@@ -39,3 +39,21 @@
     position: relative;
     overflow: hidden;
 }
+
+@media screen and (max-width: 950px){
+    .dish_pgtas {
+        width: calc(50% - 12px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #perguntas_frequentes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dish_pgtas {
+        width: 70%;
+    }
+    
+}

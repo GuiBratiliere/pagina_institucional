@@ -48,3 +48,9 @@
     font-size: 2rem;
     color: #00420f;
 }
+
+@media screen and (max-width: 880px) {
+    .content_sobre {
+        width: 100%;
+    }
+}
